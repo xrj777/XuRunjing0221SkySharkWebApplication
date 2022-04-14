@@ -32,7 +32,7 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td id="lblMessage"></td>
                     <td>
                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Change.aspx">Change Password</asp:HyperLink>
                     </td>
@@ -45,6 +45,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Filght Number"></asp:Label>
                     </td>
                     <td>
+                        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
                         <asp:TextBox ID="txtFlightNumber" runat="server"></asp:TextBox>
                     </td>
                     <td>
@@ -67,6 +68,7 @@
                         <asp:Label ID="Label4" runat="server" Text="OriginPlace"></asp:Label>
                     </td>
                     <td>
+                        <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
                         <asp:TextBox ID="txtOriginPlace" runat="server"></asp:TextBox>
                     </td>
                     <td>
@@ -153,7 +155,7 @@
                  <tr>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Submit" />
+                        <asp:Button ID="Botton1" runat="server" Text="Submit"  />
                         <asp:Button ID="Button2" runat="server" Text="Cancle" />
                      </td>
                     <td></td>
